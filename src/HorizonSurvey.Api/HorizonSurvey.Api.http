@@ -1,0 +1,11 @@
+@HorizonSurvey.Api_HostAddress = http://localhost:5097
+
+GET {{HorizonSurvey.Api_HostAddress}}/api/inventory
+Accept: application/json
+
+###
+
+GET {{HorizonSurvey.Api_HostAddress}}/api/history?from=2026-10-01T00:00:00Z&to=2026-10-31T23:59:59Z
+Accept: application/json
+
+###
